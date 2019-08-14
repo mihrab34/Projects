@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 0;
+
+}
+body {
+  background-color: white;
+}
+img {
+  height: 70px;
+  width: 100px;
+  position: absolute;
+  margin-top: -20px;
+
+}
+
+header{
+  padding: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ccc;
+  
+}
+input {
+  width: 60%;
+  height: 30px;
+  margin: -20px auto;
+  margin-left: 250px;
+  text-align: center;
+
+}
+
+section {
+  background-color: turquoise;
+
+}
+
+.grid {
+  margin-top: 500px;
+}
+
+aside {
+  background-color: peru;
+}
+
+nav {
+  background-color: magenta;
+}
+
+footer {
+  background-color: peachpuff;
+}
