@@ -1,52 +1,118 @@
 * {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
-  height: 0;
+  /* height: 0; */
 
 }
 body {
-  background-color: white;
+  background-color: #eeeeee;
 }
+
+.wrapper {
+  width: 1100px;
+  background: #eeeeee;
+  border: 2px solid #c3c3c3;
+  height: 600px;
+  margin: 30px auto;
+}
+
 img {
-  height: 70px;
   width: 100px;
+  height: 30px;
   position: absolute;
-  margin-top: -20px;
 
 }
 
 header{
-  padding: 30px;
-  padding-bottom: 50px;
-  border-bottom: 2px solid #ccc;
+  padding: 10px;
+  background: white;
   
 }
 input {
   width: 60%;
-  height: 30px;
-  margin: -20px auto;
-  margin-left: 250px;
+  height: 25px;
+  margin-left: 170px;
+  border-radius: 0;
+  border: 1px solid #c3c3c3;
+  background: white;
+}
+
+iframe {
+  margin-top: 70px;
+  width:650px;
+  height: 400px;
+}
+
+.btn {
+  background: rgb(22, 122, 198);
+  padding: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+  border: none;
+  border-radius: 2px;
+  margin-left: 120px;
+}
+
+.sub-sect {
+  width: 1100px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 0;
+  background: rgb(22, 122, 198);
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  border: 1px solid rgb(22, 122, 198);
 
 }
 
-section {
-  background-color: turquoise;
-
+.preference {
+  background: white;
+  padding-bottom: 14px;
+  color: black;
+  position: relative;
 }
 
-.grid {
-  margin-top: 500px;
+.language {
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 25px;
 }
 
-aside {
-  background-color: peru;
+a {
+  text-decoration: none;
 }
 
-nav {
-  background-color: magenta;
+.more {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  font-size: 10px;
 }
 
-footer {
-  background-color: peachpuff;
+p {
+  position: relative;
+  top: 13px;
+  left: 15px;
+  font-size: 12px;
+}
+
+span {
+  font-size: 100%;
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-color: transparent; 
+  background-repeat: no-repeat;
+  width:16px;
+  height:16px;
+  display:inline-block;
+  vertical-align:middle;
+  background-position: -198px -862px; 
+  border-width: 0px; 
+  border-style: none;
+  margin-left: 40px;
+  padding: 0px;
+  border-color: white; 
 }
