@@ -35,6 +35,7 @@ iframe {
   margin-top: 30px;
   width:650px;
   height: 400px;
+  border: 0;
 }
 
 .btn {
@@ -47,7 +48,7 @@ iframe {
   text-align: center;
   border: none;
   border-radius: 2px;
-  margin-left: 120px;
+  margin-left: 200px;
 }
 
 .sub-sect {
@@ -94,7 +95,7 @@ p {
   font-size: 12px;
 }
 
-span {
+.line-span {
   font-size: 100%;
   background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-color: transparent; 
@@ -136,8 +137,6 @@ span {
   position: absolute;
   left: 0;
   bottom: 0;
-  /* margin-left: 15px; */
-  
 }
 
 .inner-div > h1 {
@@ -146,7 +145,6 @@ span {
   position: relative;
   bottom: 5px;
   left: -2px;
-  /* font-size: 30px; */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -155,6 +153,7 @@ span {
   font-size: 15px;
   margin-left: 70px;
 }
+
 #subscribe-btn {
   margin-left: 73px;
   background-color: red;
@@ -165,22 +164,25 @@ span {
   margin-top: 7px;
 
 }
+
 hr {
   background-color: transparent;
-  /* margin-top: 20px; */
   width: 97%;
 }
+
 .addition {
   text-decoration: none;
   color: gray;
   
 }
+
 #plus {
   font-size: 42px;
   position: relative;
   top: -30px;
   right: 0;
 }
+
 #addto-tag{
   position: relative;
   top: -95px;
@@ -188,6 +190,7 @@ hr {
   margin-left: 40px;
   margin-top: 5px;
 }
+
 #share-icon{
   width: 20px;
   position: relative;
@@ -216,7 +219,7 @@ hr {
  } 
 
  .morespan {
-   margin-top: -400px;
+   margin-top: 10px;
    margin-left: -5px;
  }
  
@@ -298,4 +301,22 @@ hr {
   height: 20px;
   cursor: pointer;
   margin-top: -220px;
+}
+
+.search-mirror {
+  font-size:100%;
+  display: inline-block;
+  opacity:0.6;
+  text-indent:-10000px;
+  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-color: transparent;
+  width:18px;
+  height:18px;
+  box-shadow:none;
+  background-position: -28px -66px;
+  background-repeat: no-repeat;
+  margin: 2px -50px;
+  padding: 0px;
+  padding-left: 10px;
+  border-left: 1px solid gray;
 }
