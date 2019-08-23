@@ -341,7 +341,7 @@ hr {
 }
 
 .tool {
-  width: 55px;
+  width: 65px;
   height: 27px;
   position: absolute;
   top: 43px;
@@ -349,10 +349,9 @@ hr {
   border-left: 1px solid #7c7c80;
   background: #eeeeee;
   cursor: pointer;
-  padding-right: 10px;
 }
 
-.tool > img {
+.tool > a > img {
   width: 18px;
   height: 18px;
   margin-left: 15px;
