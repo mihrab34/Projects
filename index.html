@@ -8,16 +8,21 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="wrapper">
+  <main class="wrapper">
     <header>
       <span class="line-span"></span>
       <img src="image/logo.png" alt="youtube logo">
-    
-      <input type="text" placeholder="Search" >
       
-        
-        <a href="#"><span class="search-mirror"></span></a>
+      <input type="text" placeholder="Search" class="input-icon">
+      <div class="tool"><img src="image/glass.png" alt="Magnifying tool"></div>
       
+      <div class="group">
+        <ul>
+          <li><img src="image/video.png" alt="Video image" class="icon"></li>
+          <li><img src="image/message.png" alt="Messages icon" class="icon"></li>
+          <li><img src="image/bell.png" alt="Notification icon" class="icon"></li>
+        </ul>
+      </div>
       <button class="btn">Sign in</button>
     </header>
 
@@ -32,8 +37,7 @@
    <div class="container">
      <div class="small-cont-1">
         <section>
-          <h6>
-          <iframe src= "https://www.youtube.com/embed/Y4pzMHe_gp0" 
+          <iframe src= <!--"https://www.youtube.com/embed/Y4pzMHe_gp0"--> 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen></iframe></h6>
         </section>
@@ -57,10 +61,10 @@
               <p title="Share" id="share-tag">Share</p>
             </a>
             <span class="spanny"></span>
-            <span class="morespan">More</span>
+            <div class="moredot" title="More">More</div>
             <div class="like-dislike">
-              <img src="image/likeIcon.png"  alt="Like-icon" title="I like this" id="like-icon">
-              <img src="image/dislikeIcon.png" alt="Dislike-icon" title="I dislike this" id="dislike-icon">
+              <img src="image/likeIcon.png"  alt="Like-icon" title="like" id="like-icon">
+              <img src="image/dislikeIcon.png" alt="Dislike-icon" title="Dislike" id="dislike-icon">
             </div>   
           </div>    
         </section>
@@ -126,8 +130,7 @@
       </aside>
      </div>
    </div>
-
-  </div>
+  </main>
 </body>
 </html>
 
