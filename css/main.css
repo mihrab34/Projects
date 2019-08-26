@@ -115,7 +115,7 @@ p {
   width: 650px;
   background-color: white;
   margin-left: 0;
-  height: 180px;
+  height: 190px;
   
 }
 
@@ -187,6 +187,7 @@ li {
 hr {
   background-color: transparent;
   width: 97%;
+  margin-top: -3px;
 }
 
 .addition {
@@ -322,30 +323,12 @@ hr {
   margin-left: 70px;
 }
 
-.search-mirror {
-  font-size:100%;
-  display: inline-block;
-  opacity:0.6;
-  text-indent:-10000px;
-  background-image:url('https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-color: transparent;
-  width:18px;
-  height:18px;
-  box-shadow:none;
-  background-position: -28px -66px;
-  background-repeat: no-repeat;
-  margin: 2px -50px;
-  padding: 0px;
-  padding-left: 10px;
-  border-left: 1px solid gray;
-}
-
 .tool {
   width: 65px;
   height: 27px;
   position: absolute;
   top: 43px;
-  right: 380px;
+  right: 400px;
   border-left: 1px solid #7c7c80;
   background: #eeeeee;
   cursor: pointer;
@@ -357,3 +340,14 @@ hr {
   margin-left: 15px;
   margin-top: 5px;
 }
+.views {
+  text-align: right;
+  margin-right: 15px;
+  font-size:  19px;
+  color: rgb(102, 102, 102);
+}
+  .side-views {
+    display: block;
+    font-size: 10px;
+    color: #7c7c80;
+  }
