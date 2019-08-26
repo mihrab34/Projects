@@ -334,11 +334,11 @@ hr {
   cursor: pointer;
 }
 
-.tool > a > img {
+.tool > img {
   width: 18px;
   height: 18px;
-  margin-left: 15px;
-  margin-top: 5px;
+  margin-left: -5px;
+  margin-top: -8px;
 }
 .views {
   text-align: right;
